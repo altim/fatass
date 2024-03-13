@@ -1,0 +1,86 @@
+@use "/css/layout";
+
+:root {
+  --gray: #222831;
+  --gray2: #393e46;
+  --textColor: #fff;
+  //--color1: #240A34;
+  //--color2: #891652;
+  //--color3: #EABE6C;
+  //--color4: #FFEDD8;
+
+  --color1: #000000;
+  --color2: #F72798;
+  --color3: #F57D1F;
+  --color4: #EBF400;
+
+  //--color1: #79155B;
+  //--color2: #C23373;
+  //--color3: #F6635C;
+  //--color4: #FFBA86;
+}
+
+body {
+  background: var(--color1);
+}
+
+.page {
+  padding-top: 100px;
+  @extend %grid;
+}
+
+p {
+  color: var(--textColor);
+  font-size: 24px;
+}
+
+a {
+  color: var(--textColor);
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.4s;
+
+  &:hover {
+    color: var(--color3);
+  }
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--textColor);
+}
+
+h1 {
+  font-size: 48px;
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 40px;
+  }
+}
+
+h2 {
+  font-size: 40px;
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 32px;
+  }
+}
+
+h3 {
+  font-size: 32px;
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 24px;
+  }
+}
+
+.rounded {
+  border-radius: 20px;
+}

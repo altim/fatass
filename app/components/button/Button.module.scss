@@ -1,0 +1,62 @@
+@use "/css/layout";
+
+.button {
+  border: 1px solid var(--color2);
+  border-radius: 50px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  grid-column-gap: 16px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  min-width: 210px;
+  height: 70px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.4s;
+  direction: ltr;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  color: #fff;
+
+  background: linear-gradient(
+    45deg,
+    var(--color3) 0%,
+    var(--color3) 50%,
+    var(--color2) 50%,
+    var(--color2) 100%
+  );
+
+  background-size: 300% 100%;
+  background-position-x: right;
+
+  svg {
+    position: relative;
+    transition: all 0.4s;
+  }
+
+  &:hover {
+    background-position-x: left;
+    color: var(--color1);
+
+    svg {
+      transition: all 0.4s;
+      fill: #fff;
+      transform: translateX(4px);
+    }
+  }
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 16px;
+    min-width: 180px;
+    height: 60px;
+    transition: all 0.4s;
+  }
+}
+
+.link {
+  text-decoration: none;
+}

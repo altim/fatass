@@ -1,0 +1,10 @@
+%grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns:
+    [full-width-start] minmax(20px, 1fr) [content-start] minmax(200px, 1400px)
+    [content-end] minmax(20px, 1fr) [full-width-end];
+}
+
+$tabletWidth: 768px;
+$mobileWidth: 400px;

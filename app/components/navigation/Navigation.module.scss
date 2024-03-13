@@ -1,0 +1,150 @@
+@use "/css/layout";
+
+.navigationWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--color2);
+}
+
+.navigationInner {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+
+  p,
+  a {
+    text-transform: uppercase;
+  }
+}
+
+.desktopNavigationLinks {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-rows: max-content;
+  grid-column-gap: 20px;
+  justify-items: end;
+  justify-content: end;
+  align-items: center;
+
+  @media (max-width: layout.$tabletWidth) {
+    display: none;
+  }
+}
+
+.socialLinks {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  align-items: center;
+  grid-column-gap: 10px;
+
+  p {
+    font-size: 14px;
+    text-transform: none;
+  }
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: var(--color2);
+  transform: translateX(110%);
+  transition: all 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.mobileMenuInner {
+  padding: 20px;
+}
+
+.mobileMenuControls {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  justify-items: end;
+  align-items: center;
+}
+
+.mobileSocialLinks {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+
+  p {
+    font-size: 14px;
+  }
+
+  a {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    grid-column-gap: 10px;
+  }
+}
+
+.mobileMenuToggle {
+  border: none;
+  background: none;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  svg {
+    transition: all 0.5s;
+  }
+
+  &:hover {
+    svg {
+      fill: #fff;
+      color: #fff;
+    }
+  }
+}
+
+.mobileMenuHamburger {
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  display: none;
+
+  @media (max-width: layout.$tabletWidth) {
+    display: block;
+  }
+}
+
+.mobileMenuOpen {
+  transform: translateX(0);
+}
+
+.menuList {
+  padding: 20px 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+}
+
+.marquee {
+  position: fixed;
+  top: 66px;
+  left: 0;
+  width: 100%;
+  background: var(--color3);
+
+  p {
+    padding: 5px 0;
+    font-size: 30px;
+    color: var(--color1);
+    font-weight: bold;
+  }
+}
