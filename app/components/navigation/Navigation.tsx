@@ -90,7 +90,7 @@ export default function Navigation() {
             </div>
           </div>
           <div className={styles.menuList}>
-            <Link href={"/biy"}>Buy DogInTheRain</Link>
+            <Link href={"/biy"}>Buy {config.name}</Link>
             <div className={styles.mobileSocialLinks}>
               <p>Vibe with us:</p>
               <Link href={"https://twitter.com/home"} target={"_blank"}>
