@@ -9,8 +9,8 @@ const inter = Architects_Daughter({
 });
 
 export const metadata: Metadata = {
-  title: "Dog in the rain",
-  description: "Dog in the rain",
+  title: "Fat Ass",
+  description: "Grab that fat ass!",
 };
 
 export default function RootLayout({
