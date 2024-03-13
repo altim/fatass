@@ -8,14 +8,14 @@ export default function NotFound() {
       <div className={styles.notFoundMessage}>
         <Image
           src={"/assets/notfound.jpg"}
-          alt={"Doggy didnt find the page"}
+          alt={"Flat ass"}
           width={1024}
           height={1024}
         />
         <h3>
-          Oh no, this page is in the doghouse!
+          Looks like you've strayed into the wrong paddock!
           <br />
-          Sorry for the ruff experience! 🐾
+          Don't worry, we'll help you find your way back to the herd in no time!
         </h3>
         <Link href="/">Click here to return Home</Link>
       </div>
