@@ -80,12 +80,32 @@
   grid-column: 1/-1;
 }
 
+.page_heroImage__E_0Rd {
+  max-width: 512px;
+  height: auto;
+  border-radius: 40px;
+}
+
 .page_responsiveImage__Xdxnc {
   max-width: 100%;
   height: auto;
 }
 
+.page_hero__UyKlx {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.page_hero__UyKlx h1 {
+  margin: 0;
+  padding: 0;
+}
+
 .page_heroBtn__ZHVSG {
+  margin-top: 20px;
   font-size: 28px !important;
 }
 @media (max-width: 768px) {

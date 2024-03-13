@@ -11,18 +11,18 @@ export default function Home() {
     <>
       <div className={styles.section}>
         <div className={styles.singleColumn}>
-          <div className={styles.boxCentered}>
+          <div className={styles.hero}>
             <h1>{config.name}</h1>
             <Image
-              className={classNames("rounded", styles.responsiveImage)}
-              src={"/assets/dog.jpg"}
-              width={764}
-              height={461}
-              alt={"DogInTheRain"}
+              className={styles.heroImage}
+              src={"/assets/fatass.jpg"}
+              width={1024}
+              height={1024}
+              alt={config.name}
             />
             <Button
               id={"buy"}
-              name={`🐾 Buy ${config.name} 🐾`}
+              name={`🤗 GRAB THAT ${config.name} 🤗`}
               className={styles.heroBtn}
             />
           </div>
@@ -83,61 +83,53 @@ export default function Home() {
           <div className={styles.fullWidth}>
             <div className={styles.boxCentered}>
               <h2 className={styles.sectionTitle}>
-                Let the $RAIN of riches begin!
+                Grabbing $ASSets by the Cheeks!
               </h2>
             </div>
             <div className={styles.doubleColumn}>
               <div className={styles.infoBox}>
                 <Image
-                  src={"/assets/dogintheraincash.jpg"}
-                  alt={"Dog In The Rain Cash"}
+                  src={"/assets/fatass2.jpg"}
+                  alt={"Fat Ass Cash"}
                   width={1024}
                   height={1024}
                 />
                 <p>
-                  🌧 Invest in DogInTheRain and watch your portfolio showered
-                  with success, just like our fearless canine friend embracing
-                  the raindrops!
+                  Unlock the untapped potential of FatAss – a cryptocurrency where our curves aren't just celebrated, but embraced as pathways to prosperous ventures and financial freedom. Join us in a journey where every rise and fall of our values is a testament to the beauty of ample assets and the bountiful opportunities they bring. 🚀💰
                 </p>
               </div>
               <div className={styles.infoBox}>
                 <Image
-                  src={"/assets/dogintherain.jpg"}
-                  alt={"Dog In The Rain Cash"}
+                  src={"/assets/fatass3.jpg"}
+                  alt={"Fat Ass Crypto"}
                   width={1024}
                   height={1024}
                 />
                 <p>
-                  🐾 Our meme coin makes a splash in the crypto world just like
-                  our doggy in the rain – no umbrellas needed, just profits
-                  pouring in!
+                  With FatAss, we're not just embracing a currency; we're celebrating a lifestyle. Our cryptocurrency isn't just about numbers on a screen; it's a reflection of the beauty and abundance found in generous curves. Welcome to a world where every curve leads to opportunity. 🎉📈
                 </p>
               </div>
               <div className={styles.infoBox}>
                 <Image
-                  src={"/assets/dogintherain2.jpg"}
-                  alt={"Dog In The Rain Cash"}
+                  src={"/assets/fatass6.jpg"}
+                  alt={"Fat Ass to the moon!"}
                   width={1024}
                   height={1024}
                 />
                 <p>
-                  💰 Don&apos;t chase the bull, don&apos;t fear the bear – ride
-                  the rain with DogInTheRain! Our doggy mascot knows how to
-                  weather the crypto storms and still wag its tail.
+                  Thick is in, and so is FatAss – the cryptocurrency that acknowledges the allure of curves and capitalizes on it. Our platform is a celebration of abundance, where every transaction is a testament to the inherent value found in generous proportions. Join our community and embark on a journey where every rise and fall of our values reflects the beauty and potential of ample assets. 💪📊
                 </p>
               </div>
 
               <div className={styles.infoBox}>
                 <Image
-                  src={"/assets/dogcoin.jpg"}
-                  alt={"Dog In The Rain Cash"}
+                  src={"/assets/fatass5.jpg"}
+                  alt={"Fat Ass Coin"}
                   width={1024}
                   height={1024}
                 />
                 <p>
-                  🚀 The only coin where ruff market conditions turn into a
-                  downpour of profits. Let&apos;s splash into the future
-                  together!
+                  Invest in FatAss and experience firsthand the transformative power of ample assets in the digital realm. Our cryptocurrency doesn't just symbolize wealth; it embodies a celebration of curves, where every rise and dip in value reflects the inherent allure and potential of generous proportions. Join our community and discover the riches that await within the embrace of FatAss. 💸💼"
                 </p>
               </div>
             </div>

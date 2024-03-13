@@ -75,12 +75,33 @@
   grid-column: 1/-1;
 }
 
+.heroImage {
+  max-width: 512px;
+  height: auto;
+  border-radius: 40px;
+}
+
 .responsiveImage {
   max-width: 100%;
   height: auto;
 }
 
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .heroBtn {
+  margin-top: 20px;
   font-size: 28px !important;
 
   @media (max-width: layout.$tabletWidth) {

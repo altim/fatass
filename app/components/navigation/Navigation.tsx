@@ -106,14 +106,7 @@ export default function Navigation() {
       <div className={styles.marquee}>
         <Marquee>
           <p>
-            🌧🌧🌧️ Make it Rain with DogInTheRain! 🐾🐾🐾 Join the Crypto Splash
-            Party – Invest Now for a Downpour of Profits! ☔️☔️☔️ Grab Your Coins
-            Before the Storm! 🚀🚀🚀 Let the Rain of Riches Begin –
-            DogInTheRain, Where Every Drop Counts! 💰💰💰 Wet Noses, Wet Pockets
-            – Secure Your Share of the Wet and Wild Crypto Adventure! 💦💦💦
-            Ride the Rain, and Watch Your Investment Bloom! 🌈🌈🌈 Invest Smart,
-            Invest Funny – DogInTheRain: The Humorous Gateway to Financial
-            Shower!
+            🚀🚀🚀 Welcome to the World of FatAss Crypto! 💰💰💰 Embrace the Beauty of Generous Curves in Every Transaction! 🌟🌟🌟 Invest in Ample Assets for Bigger Gains! 💳💳💳 Join Our Community and Ride the Wave of Financial Freedom Today! 📈📈📈 Don't Miss Out on the Opportunity of a Lifetime! 💼💼💼
           </p>
         </Marquee>
       </div>
