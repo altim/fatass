@@ -106,7 +106,7 @@ export default function Navigation() {
       <div className={styles.marquee}>
         <Marquee>
           <p>
-            🚀🚀🚀 Welcome to the World of FatAss Crypto! 💰💰💰 Embrace the Beauty of Generous Curves in Every Transaction! 🌟🌟🌟 Invest in Ample Assets for Bigger Gains! 💳💳💳 Join Our Community and Ride the Wave of Financial Freedom Today! 📈📈📈 Don't Miss Out on the Opportunity of a Lifetime! 💼💼💼
+            🚀 🚀 🚀 Welcome to the World of FatAss Crypto! 💰 💰 💰 Embrace the Beauty of Generous Curves in Every Transaction! 🤑 🤑 🤑 Invest in Ample Assets for Bigger Gains! 🏆 🏆 🏆 Join Our Community and Ride the Wave of Financial Freedom Today! 📈 📈 📈 Don't Miss Out on the Opportunity of a Lifetime!
           </p>
         </Marquee>
       </div>
