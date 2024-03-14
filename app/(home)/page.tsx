@@ -43,15 +43,6 @@ export default function Home() {
       <div className={styles.section}>
         <div className={styles.socialIcons}>
           <Link
-            href={config.website}
-            target={"_blank"}
-            className={styles.iconLink}
-          >
-            <FaGlobe size={40} />
-            Website
-          </Link>
-
-          <Link
             href={config.twitter}
             target={"_blank"}
             className={styles.iconLink}
@@ -67,6 +58,15 @@ export default function Home() {
           >
             <FaTelegram size={40} />
             Telegram
+          </Link>
+
+          <Link
+              href={config.website}
+              target={"_blank"}
+              className={styles.iconLink}
+          >
+            <FaGlobe size={40} />
+            DEX
           </Link>
 
           <Link
