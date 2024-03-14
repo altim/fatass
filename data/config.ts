@@ -7,4 +7,5 @@ export const config = {
   twitter: "https://twitter.com",
   telegram: "https://telegram.com",
   dexscreener: "https://dexscreener.com",
+  buyLink: 'https://raydium.io/'
 };

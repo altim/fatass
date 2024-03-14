@@ -23,6 +23,8 @@ export default function Home() {
               id={"buy"}
               name={`🤗 GRAB THAT ${config.name} 🤗`}
               className={styles.heroBtn}
+              href={config.buyLink}
+              target={'_blank'}
             />
           </div>
         </div>

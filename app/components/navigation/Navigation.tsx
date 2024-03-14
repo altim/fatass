@@ -18,7 +18,7 @@ export default function Navigation() {
         <div className={styles.navigationInner}>
           <Link href={"/"}>{config.name}</Link>
           <div className={styles.desktopNavigationLinks}>
-            <Link href={"/biy"}>Buy {config.name}</Link>
+            <Link href={config.buyLink} target={'_blank'}>Buy {config.name}</Link>
             <div className={styles.socialLinks}>
               <div>
                 <p>Vibe with us:</p>
@@ -90,7 +90,7 @@ export default function Navigation() {
             </div>
           </div>
           <div className={styles.menuList}>
-            <Link href={"/biy"}>Buy {config.name}</Link>
+            <Link href={config.buyLink} target={'_blank'}>Buy {config.name}</Link>
             <div className={styles.mobileSocialLinks}>
               <p>Vibe with us:</p>
               <Link href={"https://twitter.com/home"} target={"_blank"}>
