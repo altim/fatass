@@ -23,10 +23,10 @@ export default function Navigation() {
               <div>
                 <p>Vibe with us:</p>
               </div>
-              <Link href={"https://twitter.com/home"} target={"_blank"}>
+              <Link href={config.twitter} target={"_blank"}>
                 <FaXTwitter size={24} />
               </Link>
-              <Link href={"/https://web.telegram.org/a/"} target={"_blank"}>
+              <Link href={config.telegram} target={"_blank"}>
                 <FaTelegram size={24} />
               </Link>
             </div>
