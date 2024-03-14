@@ -1,10 +1,10 @@
 "use client";
 import styles from "./Navigation.module.scss";
 import Link from "next/link";
-import { useState } from "react";
+import {useState} from "react";
 import classNames from "classnames";
 import Marquee from "react-fast-marquee";
-import { FaXTwitter, FaTelegram, FaToolbox, FaGlobe } from "react-icons/fa6";
+import {FaTelegram, FaXTwitter} from "react-icons/fa6";
 import {config} from "@/data/config";
 
 export default function Navigation() {
